@@ -1,0 +1,296 @@
+/*this is code style for index.html*/
+
+/*style for all */
+*{box-sizing: border-box ;padding: 0; margin: 0; }
+
+body{
+    margin-top: 10px;
+    background-color: #f1f1f1;
+}
+/* this width and container website */
+.container{
+    
+    width: 1200px;
+    
+    overflow: hidden;
+    margin: auto;
+}
+/*Style for div left */
+.left {
+    border-radius: 10px 0 0 0;
+    background-color: #fff;
+    width: 444px;
+    height: 1026px;
+    overflow: hidden;
+    float: left;
+    border: #ddd solid 2px;
+}
+/*Style for iamge */
+.container .left .about img{
+   
+    width: 446px ;
+    height: 302px;
+}
+/*Style for left  h2 (name)*/
+.container .left .about h2{
+    /*position: absolute;*/
+    margin-top: -50px ;
+    margin-left: 50px;
+}
+/*Style for left ul about me  */
+.container .left .about ul {
+   
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/*Style for left ul li  about me (info) */
+.container .left .about ul li{
+    margin-top: 5px;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+/*Style for left ul li  image all about me (info) */
+.container .left .about ul li img{
+ width: 22px;
+ height: 19px;
+}
+/*Style for left ul li  image (home)about me (info) */
+
+/*because of the size  */
+.container .left .about ul li  #image-home{
+    width: 50px;
+    margin-left:-15px ;
+    
+}
+/*End style for div about me */
+.container .left  hr{
+    background-color: #529688;
+    border: solid 0.1em #529688 ;
+    margin: 10% 5% 10% 5%;
+    
+}
+/*Style for div skils*/
+.container .left h1{
+    margin-left: 20px;
+}
+
+/*Start Style for skills html */
+
+/*This is Style for all h2 in Skills */
+.container .left .skills h2{
+    margin-left: 47%;
+}
+.container .left .skills .html{
+  margin: auto;
+  border-radius: 10px;
+  width:412px;
+  height: 18px;
+  background-color:#dbdbdb;
+}
+.container .left .skills .html .how{
+    border-radius: 10px;
+  width:90%;
+  height: 18px;
+  background-color: #009688;
+}
+.container .left .skills .html p{
+    margin: -17px;
+    margin-left: 50%;
+    color: #ddd;
+    
+}
+
+/*End Style for skills html */
+/*Start Style for skills css*/
+.container .left .skills .css{
+    margin: auto;
+    border-radius: 10px;
+    width:412px;
+    height: 18px;
+    background-color:#dbdbdb;
+}
+.container .left .skills .css .how{
+    border-radius: 10px;
+  width:70%;
+  height: 18px;
+  background-color: #009688;
+}
+.container .left .skills .css p{
+    margin: -17px;
+    margin-left: 50%;
+    color: #ddd;
+    
+}
+
+/*End Style for skills css*/
+/*Start Style for skills javascript*/
+.container .left .skills .h2-java {
+  margin-left: 41%;
+}
+.container .left .skills .java-script{
+    margin: auto;
+    border-radius: 10px;
+    width:412px;
+    height: 18px;
+    background-color:#dbdbdb;
+}
+.container .left .skills .java-script .how{
+    border-radius: 10px;
+  width:70%;
+  height: 18px;
+  background-color: #009688;
+}
+.container .left .skills .java-script p{
+    margin: -17px;
+    margin-left: 50%;
+    color: #ddd;
+    
+}
+/*End Style for skills javascript*/
+/*End for div skils*/
+
+/*Start for div languages*/
+
+/*Start Style for div arbic */
+/*Style for h2 (tittle)*/
+.container .left  .languages h2{
+    margin-left: 47%;
+}
+.container .left  .languages .arbic{
+    margin: auto;
+    border-radius: 10px;
+    width:412px;
+    height: 18px;
+    background-color:#dbdbdb;
+}
+.container .left  .languages .arbic .how{
+    border-radius: 10px;
+    width:100%;
+    height: 18px;
+    background-color: #009688;
+}
+.container .left  .languages .arbic  p{
+    margin: -17px;
+    margin-left: 50%;
+    color: #ddd;
+      
+}
+/*End Style for div arbic */
+/*Start style for div english*/
+.container .left  .languages .english{
+    margin: auto;
+    border-radius: 10px;
+    width:412px;
+    height: 18px;
+    background-color:#dbdbdb;
+}
+.container .left  .languages .english .how{
+    border-radius: 10px;
+    width:40%;
+    height: 18px;
+    background-color: #009688;
+}
+.container .left  .languages .english  p{
+    margin: -17px;
+    margin-left: 50%;
+    color: #000;
+      
+}
+/*End style for div english*/
+/*End for div languages*/
+
+/*End Style for div left */
+/*Start Style for div right*/
+.container .right{
+    float:right;
+    border-radius: 0 10px 0 0;
+    /*background-color: #dbdbdb;*/
+    width: 700px;
+    height:1000px;
+    overflow: hidden;
+    
+    
+    
+}
+/*Start Style for education */
+.container .right .education{
+    
+    width: 600px;
+    height: 336px;
+    background-color: white;
+    margin:10px auto;
+    border-radius: 1%;
+}
+.container .right .education h1{
+    padding-top: 36px;
+    margin-left: 50px;
+}
+/*Style for w3 */
+.container .right .education .w3{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.container .right .education .w3 b{
+    font-size: 20px;
+    
+}
+
+.container .right .education .w3 li{
+    color: #529688;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+    font-size: 30px;
+}
+.container .right .education .w3 img{
+  
+  width: 30px;
+  margin-right: 10px;
+}
+/*End Style for w3 */
+/**/
+.container .right  hr{
+   
+    margin: 10% 5% 10% 5%;
+   
+    background-color: #529688;
+    border: solid 0.1em #529688 ;
+
+    
+}
+/*End Style for div right*/
+/*Start Style for  footer*/
+.foot{
+    background-color:#529688 ;
+    height: 128px;
+    
+}
+.foot .container{
+    background-color: #529688;
+}
+.foot .container .footer{
+   background-color: #529688;
+   width: 200px;
+   color: white;
+   height: 128px;
+   text-align: center;
+   margin: auto;
+
+}
+.foot .container .footer p{
+    font-size: 19px;
+}
+.foot .container .footer ul li{
+    list-style: none;
+    float: left;
+    margin: 10%;
+}
+.foot .container .footer ul li img:hover{
+    opacity: 50%;
+}
+
+
+/*End  Style for  footer*/
+
